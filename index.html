@@ -13,7 +13,8 @@
 	<link rel="shortcut icon" type="image/png" href="images/logo.ico" />
 	<link rel="stylesheet" href="css/koad-assets.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700" rel="stylesheet" />
+	<link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -41,35 +42,31 @@
 								
 							</li>
 							<li class="drop-link">
-								<a href="menu.html">Menu <i class="fa fa-angle-down"></i></a>
+								<a href="menu.html">Lokasi <i class="fa fa-angle-down"></i></a>
 								<ul class="dropdown">
-									<li><a href="menu.html">Menu Style 1</a></li>
-									<li><a href="menu2.html">Menu Style 2</a></li>
+									<li><a href="menu.html">Jakarta Utara</a></li>
+									<li><a href="menu.html">Jakarta Selatan</a></li>
+									<li><a href="menu.html">Jakarta Barat</a></li>
+									<li><a href="menu.html">Jakarta Timur</a></li>
+									<li><a href="menu.html">Jakarta Pusat</a></li>
 								</ul>
 							</li>
 							<li class="drop-link">
-								<a href="about.html">Pages <i class="fa fa-angle-down"></i></a>
-								<ul class="dropdown">
-									<li><a href="about.html">About Us</a></li>
-									<li><a href="reservation.html">Reservation</a></li>
-								</ul>
-							</li>
-							<li class="drop-link"><a href="blog.html">News <i class="fa fa-angle-down"></i></a>
-								<ul class="dropdown">
-									<li><a href="blog.html">Blog Page</a></li>
-									<li><a href="single-post.html">Single Post</a></li>
-								</ul>
-							</li>
-							<li class="drop-link"><a href="contact.html">Contacts <i class="fa fa-angle-down"></i></a>
-								<ul class="dropdown">
-									<li><a href="contact.html">Contact 1</a></li>
-									<li><a href="contact2.html">Contact 2</a></li>
-								</ul>
+								<a href="about.html">Kategori</a>
+
+
+							<li class="drop-link"><a href="contact.html">Tentang Kami</a>
+								
 							</li>
 						</ul>
 					</div>
-					<a href="loginpage.html" class="button-one">Log in</a>
+<div id="button">
+	<a class="btn btn-outline-danger" href="loginpage.html">Sign Up</a>
+	<a class="btn btn-danger" href="loginpage.html">Log In</a>
+
+</div>
 				</div>
+				
 			</nav>
 		</header>
 		<!-- End Header -->
@@ -80,7 +77,9 @@
 			<div id="rev_slider_202_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="concept1" style="background-color:#000000;padding:0px;">
 				<!-- START REVOLUTION SLIDER 5.1.1RC fullscreen mode -->
 				<div id="rev_slider_202_1" class="rev_slider fullscreenbanner" data-version="5.1.1RC">
+					
 					<ul>
+						
 						<!-- SLIDE  -->
 						<li data-index="rs-672" data-transition="slidingoverlaydown" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-rotate="0" data-saveperformance="off" data-title="unique" data-description="">
 							<!-- MAIN IMAGE -->
@@ -147,7 +146,7 @@
 								data-splitin="none"
 								data-splitout="none"
 								data-responsive_offset="on"
-								style="z-index: 6; white-space: nowrap;font-style:italic;"><a class="button-two" href="menu.html">Cari Makanan</a>
+								style="z-index: 6; white-space: nowrap;font-style:italic;">
 							</div>
 
 						</li>
@@ -216,7 +215,7 @@
 								data-splitin="none"
 								data-splitout="none"
 								data-responsive_offset="on"
-								style="z-index: 6; white-space: nowrap;font-style:italic;"><a class="button-two" href="menu2.html">Cari Restaurant</a>
+								style="z-index: 6; white-space: nowrap;font-style:italic;">
 							</div>
 
 						</li>
@@ -229,30 +228,39 @@
 		</section>
 		<!-- End home section -->
 
+
 		<!-- banner-section 
-			================================================== -->
-		<section class="banner-section">
+					================================================== -->
+		<section class="banner-section2">
 			<div class="container">
 				<div class="banner-box">
-					<h3>Pilihan hari ini</h3>
-					<h2>Aneka Kopi Terbaik <br>
-						Di Sekitarmu</h2>
-					<span class="price">
-						
-					</span>
-					<a href="menu.html" class="button-two">Kunjungi</a>
+					<h2>Mau Makan Dimana Ya?</h2>
+					<h3>Tidak perlu bingung, maemyu akan membantu anda mencari restoran dan cafe yang cocok dengan anda</h3>
+					<div class="btn-group">
+						<button type="button" class="btn btn-danger">Pilih Lokasi</button>
+						<button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							<span class="sr-only">Toggle Dropdown</span>
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="">Jakarta Selatan</a>
+							<a class="dropdown-item" href="">Jakarta Timur</a>
+							<a class="dropdown-item" href="">Jakarta Barat</a>
+							<a class="dropdown-item" href="">Jakarta Pusat</a>
+							<a class="dropdown-item" href="">Jakarta Utara</a>	
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
 		<!-- End banner section -->
-
 		<!-- popular-menu-section 
 			================================================== -->
 		<section class="popular-menu-section">
 			<div class="container">
 				<div class="title-section">
 					<h2>Kategori Populer</h2>
-					<p>Lebih mudah menemukan restaurant yang cocok berdasarkan kategori</p>
+					<p>Lebih mudah menemukan restaurant yang cocok berdasarkan kategori</p><br><p><a href="">Lihat kategori Selengkapnya</a></p>
 				</div>
 				<div class="popular-menu-box owl-wrapper">
 					
@@ -353,226 +361,84 @@
 			</div>
 		</section>
 		<!-- End services section -->
-
 		<!-- banner-section 
-			================================================== -->
-		<section class="banner-section2">
+					================================================== -->
+		<section class="banner-section">
 			<div class="container">
 				<div class="banner-box">
-					<h2>Book a Table</h2>
-					<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedolorm reminusto 
-						doeiusmod tempor condorico consectetur adipiscing elitut aliquip.</h3>
-					<a href="reservation.html" class="button-two">Reservation</a>
+					<h3>Pilihan hari ini</h3>
+					<h2>Nikmati Kopi <br>Terbaik
+						Dari Cafe <br>Pilihan</h2>
+					<br>
+					<a class="button-two" href="menu.html">Kunjungi</a>
 				</div>
 			</div>
 		</section>
 		<!-- End banner section -->
+		<section class="testimonial-section">
+			<div class="container">
+				<div class="title-section">
+					<h2>Tempat Terpopuler di <b>Jakarta</b></h2><br>
+					<p><a href="">Lihat Tempat Populer Selengkapnya</a></p>
+				</div>
+				<div class="card-deck">
+					<a href=""><div class="card">
+						<img src="images/blokm.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title" style="text-align: center;">Blok M</h3>
+							<p class="card-text"></p>
+							
+						</div></a>
+					</div>
+					<a href=""><div class="card">
+						<img src="images/senayan.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title" style="text-align: center;">Senayan</h3>
+							<p class="card-text"></p>
+							
+						</div></a>
+					</div>
+					<a href=""><div class="card">
+						<img src="images/tebet.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title" style="text-align: center;">Tebet</h3>
+							<p class="card-text"></p>
 
-		<!-- menu-section 
-			================================================== -->
-		<section class="menu-section">
-			<div class="menu-box pizza-menu">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-5 col-md-6">
-							<div class="image-holder">
-								<img src="upload/others/ab1.jpg" alt="">
-							</div>
-						</div>
-						<div class="col-lg-6 offset-lg-1 col-md-6">
-							<div class="menu-holder">
-								<h2>Pizza</h2>
-								<ul class="menu-list">
-									<li>
-										<div class="img-box">
-											<img src="upload/menu/th1.jpg" alt="">
-										</div>
-										<div class="menu-cont">
-											<h4>
-												<span class="title-menu">Oakey Smokey Pizza</span>
-												<span class="price">$21.00</span>
-											</h4>
-											<p>Smoke mozzarella, basil and picorino Romano</p>
-										</div>
-									</li>
-									<li>
-										<div class="img-box">
-											<img src="upload/menu/th2.jpg" alt="">
-										</div>
-										<div class="menu-cont">
-											<h4>
-												<span class="title-menu">White Ricotta Pizza</span>
-												<span class="price">$24.00</span>
-											</h4>
-											<p>Smoke mozzarella, basil and picorino Romano</p>
-										</div>
-									</li>
-									<li>
-										<div class="img-box">
-											<img src="upload/menu/th3.jpg" alt="">
-										</div>
-										<div class="menu-cont">
-											<h4>
-												<span class="title-menu">Original Margherita Pizza</span>
-												<span class="price">$22.00</span>
-											</h4>
-											<p>Smoke mozzarella, basil and picorino Romano</p>
-										</div>
-									</li>
-									<li>
-										<div class="img-box">
-											<img src="upload/menu/th4.jpg" alt="">
-										</div>
-										<div class="menu-cont">
-											<h4>
-												<span class="title-menu">Calzone</span>
-												<span class="price">$23.00</span>
-											</h4>
-											<p>Smoke mozzarella, basil and picorino Romano</p>
-										</div>
-									</li>
-									<li>
-										<div class="img-box">
-											<img src="upload/menu/th5.jpg" alt="">
-										</div>
-										<div class="menu-cont">
-											<h4>
-												<span class="title-menu">Mercy Margarita</span>
-												<span class="price">$18.00</span>
-											</h4>
-											<p>Smoke mozzarella, basil and picorino Romano</p>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
+						</div></a>
 					</div>
 				</div>
-			</div>
-			
-			<div class="menu-box pasta-menu">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6 col-md-6">
-							<div class="menu-holder">
-								<h2>Pasta</h2>
-								<ul class="menu-list">
-									<li>
-										<div class="img-box">
-											<img src="upload/menu/th6.jpg" alt="">
-										</div>
-										<div class="menu-cont">
-											<h4>
-												<span class="title-menu">Spaghetti all’Amatriciana</span>
-												<span class="price">$21.00</span>
-											</h4>
-											<p>Smoke mozzarella, basil and picorino Romano</p>
-										</div>
-									</li>
-									<li>
-										<div class="img-box">
-											<img src="upload/menu/th7.jpg" alt="">
-										</div>
-										<div class="menu-cont">
-											<h4>
-												<span class="title-menu">Spaghetti Carbonara</span>
-												<span class="price">$24.00</span>
-											</h4>
-											<p>Smoke mozzarella, basil and picorino Romano</p>
-										</div>
-									</li>
-									<li>
-										<div class="img-box">
-											<img src="upload/menu/th8.jpg" alt="">
-										</div>
-										<div class="menu-cont">
-											<h4>
-												<span class="title-menu">Lasagna</span>
-												<span class="price">$22.00</span>
-											</h4>
-											<p>Smoke mozzarella, basil and picorino Romano</p>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-5 offset-lg-1 col-md-6">
-							<div class="image-holder">
-								<img src="upload/others/ab2.jpg" alt="">
-							</div>
-						</div>
+				<br>
+				<a href=""><div class="card-deck">
+					<div class="card">
+						<img src="images/senopatii.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title" style="text-align: center;">Senopati</h3>
+							<p class="card-text"></p>
+
+						</div></a>
+					</div>
+					<a href=""><div class="card">
+						<img src="images/kemang.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title" style="text-align: center;">Kemang</h3>
+							<p class="card-text"></p>
+							
+						</div></a>
+					</div>
+					<a href=""><div class="card">
+						<img src="images/bintaro.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h3 class="card-title" style="text-align: center;">Bintaro</h3>
+							<p class="card-text"></p>
+							
+						</div></a>
 					</div>
 				</div>
-			</div>
-			
-			<div class="menu-box burger-menu">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-5 col-md-6">
-							<div class="image-holder">
-								<img src="upload/others/ab3.jpg" alt="">
-							</div>
-						</div>
-						<div class="col-lg-6 offset-lg-1 col-md-6">
-							<div class="menu-holder">
-								<h2>Burger</h2>
-								<ul class="menu-list">
-									<li>
-										<div class="img-box">
-											<img src="upload/menu/th9.jpg" alt="">
-										</div>
-										<div class="menu-cont">
-											<h4>
-												<span class="title-menu">The Double Barrel Meat Feast</span>
-												<span class="price">$21.00</span>
-											</h4>
-											<p>Smoke mozzarella, basil and picorino Romano</p>
-										</div>
-									</li>
-									<li>
-										<div class="img-box">
-											<img src="upload/menu/th10.jpg" alt="">
-										</div>
-										<div class="menu-cont">
-											<h4>
-												<span class="title-menu">Classic Havana Burger</span>
-												<span class="price">$24.00</span>
-											</h4>
-											<p>Smoke mozzarella, basil and picorino Romano</p>
-										</div>
-									</li>
-									<li>
-										<div class="img-box">
-											<img src="upload/menu/th11.jpg" alt="">
-										</div>
-										<div class="menu-cont">
-											<h4>
-												<span class="title-menu">Single BBQ Chicken Burger</span>
-												<span class="price">$22.00</span>
-											</h4>
-											<p>Smoke mozzarella, basil and picorino Romano</p>
-										</div>
-									</li>
-									<li>
-										<div class="img-box">
-											<img src="upload/menu/th12.jpg" alt="">
-										</div>
-										<div class="menu-cont">
-											<h4>
-												<span class="title-menu">Havana Speical Burger Combo</span>
-												<span class="price">$23.00</span>
-											</h4>
-											<p>Smoke mozzarella, basil and picorino Romano</p>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
+	
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- End menu section -->
 
 		<!-- testimonial-section 
 			================================================== -->
@@ -588,58 +454,32 @@
 					
 						<div class="item">
 							<div class="testimonial-post">
-								<img src="upload/others/test1.jpg" alt="">
-								<h3>Corben Naylor</h3>
-								<span>Chef</span>
-								<p>“ Donec nec justo eget felis 
-									facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellente
-									squefelis. ”</p>
+								<img src="images/avatar1.png" alt="">
+								<h3>Nex Carlos</h3>
+								<span>Food Vlogger</span>
+								<p>“Keren banget nih Maemyu, gua jadi bisa tau lokasi restoran yang gua mau”</p>
 							</div>
 						</div>
 					
 						<div class="item">
 							<div class="testimonial-post">
-								<img src="upload/others/test2.jpg" alt="">
-								<h3>Rhiana Fields</h3>
-								<span>Designer</span>
-								<p>“ Donec nec justo eget felis 
-									facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellente
-									squefelis. ”</p>
+								<img src="images/avatar2.png" alt="">
+								<h3>Ken & Grat</h3>
+								<span>Food Vlogger</span>
+								<p>“Maemyu emang paling mengerti kita, jadi ga bingung mau makan apa”</p>
 							</div>
 						</div>
 					
 						<div class="item">
 							<div class="testimonial-post">
-								<img src="upload/others/test3.jpg" alt="">
-								<h3>Jane Avila</h3>
-								<span>Manager</span>
-								<p>“ Donec nec justo eget felis 
-									facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellente
-									squefelis. ”</p>
+								<img src="images/avatar3.png" alt="">
+								<h3>Ria SW</h3>
+								<span>Food Vlogger</span>
+								<p>“Jadi lebih tau tentang restoran atau cafe yang belum pernah dieksplor, terima kasih maemyu”</p>
 							</div>
 						</div>
 					
-						<div class="item">
-							<div class="testimonial-post">
-								<img src="upload/others/test1.jpg" alt="">
-								<h3>Corben Naylor</h3>
-								<span>Chef</span>
-								<p>“ Donec nec justo eget felis 
-									facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellente
-									squefelis. ”</p>
-							</div>
-						</div>
-					
-						<div class="item">
-							<div class="testimonial-post">
-								<img src="upload/others/test2.jpg" alt="">
-								<h3>Rhiana Fields</h3>
-								<span>Designer</span>
-								<p>“ Donec nec justo eget felis 
-									facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellente
-									squefelis. ”</p>
-							</div>
-						</div>
+						
 
 					</div>
 				</div>
@@ -665,66 +505,7 @@
 		</section>
 		<!-- End gallery section -->
 
-		<!-- news-section 
-			================================================== -->
-		<section class="news-section">
-			<div class="container">
-				<div class="title-section white-style">
-					<h2>Latest News</h2>
-					<span>Promotion in a Cafe</span>
-				</div>
-				<div class="news-box">
-					<div class="row">
-						<div class="col-lg-4 col-md-6">
-							<div class="news-post">
-								<img src="upload/blog/1.jpg" alt="">
-								<div class="news-content">
-									<h3><a href="single-post.html">Etiam sodales, erat non.</a></h3>
-									<p>Donec nec justo eget felis facilisis 
-										fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim 
-										pellente squefelis.</p>
-									<p class="auth-paragraph">
-										24.04.2020 / <a href="single-post.html">2 comments</a>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="news-post">
-								<img src="upload/blog/2.jpg" alt="">
-								<div class="news-content">
-									<h3><a href="single-post.html">Quisque volutpat mattis.</a></h3>
-									<p>Donec nec justo eget felis facilisis 
-										fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim 
-										pellente squefelis.</p>
-									<p class="auth-paragraph">
-										24.04.2020 / <a href="single-post.html">2 comments</a>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="news-post">
-								<img src="upload/blog/3.jpg" alt="">
-								<div class="news-content">
-									<h3><a href="single-post.html">Cras iaculis ultricies nulla.</a></h3>
-									<p>Donec nec justo eget felis facilisis 
-										fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim 
-										pellente squefelis.</p>
-									<p class="auth-paragraph">
-										24.04.2020 / <a href="single-post.html">2 comments</a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="center-button">
-						<a href="blog.html" class="button-one">View All News</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End news section -->
+		
 
 		<!-- footer 
 			================================================== -->
@@ -739,8 +520,7 @@
 								<a href="index.html">
 									<img src="images/logo.png" alt="">
 								</a>
-								<p>Donec nec justo eget felis facilisis fermentum. 
-									Aliquam porttitor mauris sit amet orci. Aenean dignissim pellente squefelis.</p>
+								<p>Mau makan apa hari ini? Maemyu bisa bantu cari restoran dan cafe yang kamu inginkan</p>
 								<ul class="social-list">
 									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -900,7 +680,16 @@
 				});
 			}
 		}); /*ready*/
-	</script>	
+		</script>	
+			<script src="js/extention/choices.js"></script>
+			<script>
+				const choices = new Choices('[data-trigger]',
+					{
+						searchEnabled: false,
+						itemSelectText: '',
+					});
+
+			</script>
 
 	
 </body>
